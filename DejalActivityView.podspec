@@ -5,13 +5,28 @@ Pod::Spec.new do |s|
   s.summary      = "Conveniently displays a horizontal, bezel-style, or keyboard-covering view with a spinning activity indicator and adjustable text."
 
   s.description  = <<-DESC
-                   A longer description of DejalActivityView in Markdown format.
+                      DejalActivityView
+                      =================
 
-                   * Think: Why did you write this? What is the focus? What does it do?
-                   * CocoaPods will be using this to generate tags, and improve search results.
-                   * Try to keep it short, snappy and to the point.
-                   * Finally, don't worry about the indent, CocoaPods strips it!
-                   DESC
+                      Conveniently displays a horizontal, bezel-style, or keyboard-covering view with a spinning activity indicator and adjustable text.
+
+                      Requirements
+
+                      ------------
+
+                      - Xcode 4.2 or later.
+                      - iOS 5 or later.
+                      - ARC.
+
+                      Features
+                      --------
+
+                      - **DejalActivityView**: a simple horizontal-style loading view, intended for situations where you have a blank view while loading data.
+                      - **DejalWhiteActivityView**: the same as the simple one, but with a white indicator and text instead of black, for use in dark views.
+                      - **DejalBezelActivityView**: an animated round-rect-enclosed variation, with a gray background covering the parent view.
+                      - **DejalKeyboardActivityView**: displays over the keyboard.  Rarely used nowadays (and may be removed in a future version; let me know if you need it).
+                      - A demo project is included.
+                      DESC
 
   s.homepage     = "http://www.dejal.com/developer/#dejalactivityview"
 
