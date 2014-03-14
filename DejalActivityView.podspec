@@ -11,7 +11,6 @@ Pod::Spec.new do |s|
                       Conveniently displays a horizontal, bezel-style, or keyboard-covering view with a spinning activity indicator and adjustable text.
 
                       Requirements
-
                       ------------
 
                       - Xcode 4.2 or later.
