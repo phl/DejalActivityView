@@ -34,7 +34,7 @@ Pod::Spec.new do |s|
   s.author             = { "Dejal" => "dev@dejal.com" }
   s.platform     = :ios, '5.0'
 
-  s.source       = { :git => "https://github.com/phl/DejalActivityView.git", :tag => "1.2" }
+  s.source       = { :git => "https://github.com/dejal/DejalActivityView.git", :tag => "1.2" }
 
   s.source_files  = '*.{h,m}'
 
